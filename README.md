@@ -2,5 +2,4 @@
 Author : Anjali Dewari
 
 ## 📊 LeetCode Stats
-![LeetCode Stats](https://leetcode-badge.vercel.app/api/users/AnjaliDewari19)
-
+![LeetCode Stats](https://leetcode-stats-api.herokuapp.com/AnjaliDewari19)
