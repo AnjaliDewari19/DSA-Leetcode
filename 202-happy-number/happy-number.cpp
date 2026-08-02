@@ -13,7 +13,6 @@ public:
             }
             n = sum;
         }
-        
         return n == 1;
     }
 };
