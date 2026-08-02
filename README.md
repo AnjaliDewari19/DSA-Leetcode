@@ -2,4 +2,6 @@
 Author : Anjali Dewari
 
 ## 📊 LeetCode Stats
-![LeetCode Stats](https://leetcode-stats-api.herokuapp.com/AnjaliDewari19)
+Easy : 1
+Medium : 1
+Hard : 0
