@@ -2,5 +2,5 @@
 Author : Anjali Dewari
 
 ## 📊 LeetCode Stats
-![LeetCode Stats](https://leetcode-stats-card.herokuapp.com/?username=AnjaliDewari19&theme=dark)
+![LeetCode Stats](https://leetcode-badge.vercel.app/api/users/AnjaliDewari19)
 
