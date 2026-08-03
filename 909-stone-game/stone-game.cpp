@@ -3,12 +3,10 @@ public:
     bool stoneGame(vector<int>& piles) {
         int n = piles.size();
         vector<vector<int>> dp(n, vector<int>(n, 0));
-
         // Base case: 1 pile remaining
         for (int i = 0; i < n; ++i) {
             dp[i][i] = piles[i];
         }
-
         // Solve for subarrays of length 2 to n
         for (int len = 2; len <= n; ++len) {
             for (int i = 0; i <= n - len; ++i) {
