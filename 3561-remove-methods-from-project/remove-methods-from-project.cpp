@@ -6,7 +6,6 @@ public:
             adj[inv[0]].push_back(inv[1]);
         }
 
-        // Step 2: Find all suspicious methods reachable from k using BFS
         vector<bool> isSuspicious(n, false);
         vector<int> queue;
         queue.push_back(k);
@@ -23,7 +22,6 @@ public:
             }
         }
 
-        // Step 3: Verify if any non-suspicious method invokes a suspicious method
         bool canRemove = true;
         for (const auto& inv : invocations) {
             int u = inv[0], v = inv[1];
@@ -33,7 +31,6 @@ public:
             }
         }
 
-        // Step 4: Collect remaining methods
         vector<int> result;
         if (!canRemove) {
             for (int i = 0; i < n; ++i) {
@@ -46,7 +43,6 @@ public:
                 }
             }
         }
-
         return result;
     }
 };
