@@ -31,7 +31,6 @@ public:
                 j++;
             }
         }
-
         return (ans.size() == m) ? ans : std::vector<int>();
     }
 };
