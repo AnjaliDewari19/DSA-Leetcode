@@ -34,7 +34,6 @@ public:
             dp[i][M] = suffix_sum[i] - min_opponent_score;
             return dp[i][M];
         };
-        
         return solve(solve, 0, 1);
     }
 };
