@@ -82,7 +82,6 @@ public:
             update(1, 0, n - 1, queryIndices[i], queryCharacters[i]);
             ans[i] = tree[1].mx;
         }
-
         return ans;
     }
 };
