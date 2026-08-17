@@ -33,7 +33,6 @@ public:
         for (int i = 0; i < n; ++i) {
             pref[i + 1] = pref[i] + stoneValue[i];
         }
-        
         return solve(0, n - 1, pref);
     }
 };
