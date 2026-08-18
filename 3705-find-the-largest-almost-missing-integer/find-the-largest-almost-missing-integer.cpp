@@ -32,7 +32,6 @@ public:
         if (freq[nums[n - 1]] == 1) {
             ans = max(ans, nums[n - 1]);
         }
-
         return ans;
     }
 };
