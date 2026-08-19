@@ -1,11 +1,12 @@
 #include <vector>
 #include <unordered_map>
+using namespace std;
 
 class Solution {
 public:
     int maxNumberOfFamilies(int n, std::vector<std::vector<int>>& reservedSeats) {
-        std::unordered_map<int, int> rowMasks;
-        
+        unordered_map<int, int> rowMasks;
+
         // Build bitmask for occupied seats (2 to 9) per row
         for (const auto& seat : reservedSeats) {
             int row = seat[0];
