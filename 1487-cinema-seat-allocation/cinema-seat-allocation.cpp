@@ -34,7 +34,6 @@ public:
                 maxGroups += 1;
             }
         }
-        
         return maxGroups;
     }
 };
