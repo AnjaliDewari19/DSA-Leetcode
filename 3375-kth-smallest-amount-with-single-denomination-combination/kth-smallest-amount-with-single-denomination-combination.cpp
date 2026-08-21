@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long gcd(long long a, long long b) {
-        return std::gcd(a, b);
+        return gcd(a, b);
     }
 
     long long lcm(long long a, long long b) {
