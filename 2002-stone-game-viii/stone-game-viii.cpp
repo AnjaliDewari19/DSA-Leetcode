@@ -15,7 +15,6 @@ public:
         for (int i = n - 2; i >= 1; --i) {
             maxDiff = std::max(maxDiff, prefix[i] - maxDiff);
         }
-
         return maxDiff;
     }
 };
