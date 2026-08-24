@@ -15,7 +15,7 @@ public:
             else 
                 sum2 += num[i] - '0' ;
         }
-
+        
         if ((q1 + q2) % 2 != 0)
             return true;
 
