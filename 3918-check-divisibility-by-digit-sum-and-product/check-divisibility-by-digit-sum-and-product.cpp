@@ -12,6 +12,7 @@ public:
         if(num%(sum+pro) == 0){
             return true;
         }
+        
         return false;
     }
 };
