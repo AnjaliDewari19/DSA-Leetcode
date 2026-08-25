@@ -7,7 +7,6 @@ public:
         while (numSet.count(multiple)) {
             multiple += k; 
         }
-       
         return multiple;
     }
 };
