@@ -7,10 +7,7 @@ public:
                 ones.push_back(i);
             }
         }
-        
-        // If total '1's are less than k, no beautiful substring exists
-        if (ones.size() < k) return "";
-        
+        if (ones.size() < k) return "";        
         string res = "";
         
         for (int i = 0; i <= ones.size() - k; ++i) {
