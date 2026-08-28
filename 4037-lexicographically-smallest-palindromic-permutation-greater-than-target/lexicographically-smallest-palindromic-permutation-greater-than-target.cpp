@@ -89,7 +89,6 @@ public:
                 break;
             }
         }
-
         return best;
     }
 };
