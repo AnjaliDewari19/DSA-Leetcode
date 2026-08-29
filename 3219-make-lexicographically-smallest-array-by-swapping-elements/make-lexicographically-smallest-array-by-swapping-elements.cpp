@@ -32,7 +32,6 @@ public:
 
             i = j + 1;
         }
-
         return ans;
     }
 };
