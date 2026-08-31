@@ -10,7 +10,6 @@ public:
                 dp[i] = max(nums[i] - dp[i + 1], nums[j] - dp[i]);
             }
         }
-
         return dp[0] >= 0;
     }
 };
