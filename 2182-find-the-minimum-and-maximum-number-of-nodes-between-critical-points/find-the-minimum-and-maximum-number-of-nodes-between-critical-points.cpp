@@ -32,7 +32,6 @@ public:
             curr = nextNode;
             index++;
         }
-
         // Return result if at least two critical points were found
         if (minDistance == INT_MAX) {
             return {-1, -1};
