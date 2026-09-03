@@ -9,7 +9,7 @@ public:
             if (x % 2 == 0) has_even = true;
             else has_odd = true;
         }
-
+        
         if (!has_even || !has_odd) return true;
         return min_val % 2 != 0;
     }
