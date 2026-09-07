@@ -15,7 +15,6 @@ public:
         for(int count : ends_with){
             result = (result + count) % mod;
         }
-
         return result;
     }
 };
