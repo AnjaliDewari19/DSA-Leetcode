@@ -5,6 +5,7 @@ public:
         for(long long t = 1000; t <= n ; t *= 1000){
             ans += n-t+1;
         }
+        
         return ans;
     }
 };
