@@ -25,7 +25,6 @@ class Solution {
         if(sum/n == root->val){
             count++;
         }
-
         return {sum, n};
     }
 public:
