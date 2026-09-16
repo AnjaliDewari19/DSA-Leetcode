@@ -11,6 +11,7 @@ class Solution {
         }
         return res;
     }
+
 public:
     int numberOfSets(int n, int k) {
         long long N = n+k-1, K = 2*k, num = 1, den = 1;
