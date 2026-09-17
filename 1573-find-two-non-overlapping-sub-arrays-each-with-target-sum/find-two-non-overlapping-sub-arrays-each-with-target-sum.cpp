@@ -27,7 +27,7 @@ public:
 
             prefix_map[sum] = i;
         }
-
+        
         return (ans == INT_MAX) ? -1 : ans ;
     }
 };
