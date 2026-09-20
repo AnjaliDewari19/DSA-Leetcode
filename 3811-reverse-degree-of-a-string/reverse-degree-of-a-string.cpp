@@ -7,7 +7,7 @@ public:
             int stringPos = i + 1;
             total += reverseAlpha * stringPos;
         }
-
+        
         return total;
     }
 };
