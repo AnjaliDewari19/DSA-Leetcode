@@ -79,6 +79,7 @@ public:
             Node res = query(1, 0, n - 1, start, n - 1);
             result.push_back(res.cnt[r0][x]);
         }
+        
         return result;
     }
 };
