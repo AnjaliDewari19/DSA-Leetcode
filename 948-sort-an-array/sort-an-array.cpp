@@ -28,6 +28,7 @@ public:
     vector<int> sortArray(vector<int>& nums) {
         srand(time(nullptr));
         quicksort(nums, 0 , nums.size() - 1);
+        
         return nums;
     }
 };
