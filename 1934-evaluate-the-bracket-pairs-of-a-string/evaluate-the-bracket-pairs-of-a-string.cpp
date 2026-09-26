@@ -17,7 +17,6 @@ public:
                     key += s[i];
                     i++;
                 }
-
                 if(map.find(key) != map.end()){
                     result += map[key];
                 }else{
