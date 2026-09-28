@@ -2,6 +2,6 @@
 Author : Anjali Dewari
 
 ## 📊 LeetCode Stats
-Easy   : 20<br>
+Easy   : 21 <br>
 Medium : 26 <br>
 Hard   : 14 <br>
