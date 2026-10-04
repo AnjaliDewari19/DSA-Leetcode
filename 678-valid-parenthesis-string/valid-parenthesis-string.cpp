@@ -18,6 +18,7 @@ public:
 
             low = max(low, 0);
         }
+        
         return low == 0;
     }
 };
