@@ -15,6 +15,7 @@ public:
                 st.push(w+max(2*v, 1));
             }
         }
+        
         int ans = st.top();
         return ans;
     }
