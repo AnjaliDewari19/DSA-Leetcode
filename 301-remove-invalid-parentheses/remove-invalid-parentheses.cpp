@@ -1,7 +1,6 @@
 class Solution {
 public:
     unordered_set<string> resultSet;
-
     void solve(const string& s, int index, int openCount, int closeCount, int invalidOpen, int invalidClose, string& current){
         if(index == s.length()){
             if(invalidOpen == 0 && invalidClose == 0 && openCount == closeCount){
