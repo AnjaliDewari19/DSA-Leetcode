@@ -22,6 +22,7 @@ public:
         }
 
         insertion += openNeed * 2;
+        
         return insertion;
     }
 };
