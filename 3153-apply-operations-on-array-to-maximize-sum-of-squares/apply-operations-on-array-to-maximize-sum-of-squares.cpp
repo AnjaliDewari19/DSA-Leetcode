@@ -23,6 +23,7 @@ public:
             }
             total = (total + currentNum * currentNum) % mod;
         }
+        
         return total;
     }
 };
