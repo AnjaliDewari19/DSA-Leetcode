@@ -8,6 +8,7 @@ public:
                 sum += nums[i-1] * nums[i-1];
             }
         }
+        
         return sum;
     }
 };
