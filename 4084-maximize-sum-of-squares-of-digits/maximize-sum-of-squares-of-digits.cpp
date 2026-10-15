@@ -18,6 +18,7 @@ public:
         }
 
         if(sum != 0) return "";
+        
         return result;
     }
 };
