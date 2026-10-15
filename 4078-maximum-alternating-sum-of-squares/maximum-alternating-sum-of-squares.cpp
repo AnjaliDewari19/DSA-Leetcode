@@ -21,7 +21,7 @@ public:
         for(int i=mid ; i<n ; ++i){
             totalScore += squared[i];
         }
-
+        
         return totalScore;
     }
 };
